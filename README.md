@@ -1,8 +1,6 @@
-# scio-beam-home
+## What it be?
 
-## Raison d'être:
-
-TODO: your project description
+Scio project that streams a source, processes and writes to a sink.
 
 ## Features:
 
@@ -15,10 +13,10 @@ Use `sbt-pack` instead of `sbt-assembly` to:
  * enable efficient dependency caching
  * reduce job submission time
 
-To build package run:
+### Running
 
 ```
-sbt pack
+sbt "runMain com.home.AmlNotifier --input=src/main/resources/tx.json --output=out"
 ```
 
 ### Testing
